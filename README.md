@@ -1,4 +1,4 @@
-### Hey, I'm Clayton
+### Hey, I'm Clay
 
 I started in warehouse operations, noticed my team was drowning in manual work, and taught myself to code to fix it. That turned into building full production systems — scrapers, data pipelines, dashboards, and automation tools that replaced weeks of manual work with code that runs on autopilot.
 
