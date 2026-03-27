@@ -1,16 +1,21 @@
-## Hi there 👋
+### Hey, I'm Clayton
 
-<!--
-**claygeo/claygeo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I started in warehouse operations, noticed my team was drowning in manual work, and taught myself to code to fix it. That turned into building full production systems — scrapers, data pipelines, dashboards, and automation tools that replaced weeks of manual work with code that runs on autopilot.
 
-Here are some ideas to get you started:
+**Things I've built:**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔧 **Competitive Intelligence Platform** — Reverse-engineered 3 retail APIs (REST, GraphQL, Algolia), built a pipeline that scrapes 50K+ products across 25 chains in 5 states on automated 4-hour cycles. Replaced 6 spreadsheets with one real-time dashboard. (Private repo — ask me about it)
+
+📈 **[Hyperliquid Trading Sim](https://github.com/claygeo/hyperliquid-trading-sim)** — Paper trading on live crypto data via WebSocket. 70+ assets, margin accounting, liquidation detection, stress testing at 100+ tx/sec.
+
+♟️ **[Chess Benchmark](https://github.com/claygeo/chess-benchmark)** — Freelance client project, delivered in 4 days. Cognitive training platform with progressive difficulty and Firebase auth.
+
+📦 **[Inventory System](https://github.com/claygeo/cannabis-inventory-system)** — Production warehouse system with Zebra thermal printer integration, barcode scanning, and batch tracking. 299 commits.
+
+**What I work with:**
+
+TypeScript · Python · Next.js · React · Node.js · PostgreSQL · Redis · Supabase · Playwright · BullMQ · Docker
+
+**Currently looking for** data engineering, full-stack, or platform engineering roles (remote). Also open to contract work.
+
+[LinkedIn](https://www.linkedin.com/in/claytongeo/)
