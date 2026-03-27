@@ -4,7 +4,7 @@ I started in warehouse operations, noticed my team was drowning in manual work, 
 
 **Things I've built:**
 
-🔧 **Competitive Intelligence Platform** — Reverse-engineered 3 retail APIs (REST, GraphQL, Algolia), built a pipeline that scrapes 50K+ products across 25 chains in 5 states on automated 4-hour cycles. Replaced 6 spreadsheets with one real-time dashboard. (Private repo — ask me about it)
+🔧 **[Competitive Intelligence Platform](https://github.com/claygeo/competitive-intel-platform)** — Reverse-engineered 3 retail APIs (REST, GraphQL, Algolia), built a pipeline that scrapes 50K+ products across 31 chains in 5 states on automated 4-hour cycles. Replaced 6 spreadsheets with one real-time dashboard.
 
 📈 **[Hyperliquid Trading Sim](https://github.com/claygeo/hyperliquid-trading-sim)** — Paper trading on live crypto data via WebSocket. 70+ assets, margin accounting, liquidation detection, stress testing at 100+ tx/sec.
 
