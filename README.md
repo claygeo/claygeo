@@ -8,7 +8,7 @@ I started in warehouse operations, noticed my team was drowning in manual work, 
 
 **[Hyperliquid Trading Sim](https://github.com/claygeo/hyperliquid-trading-sim)** — Paper trading on live crypto data via WebSocket. Margin accounting, liquidation detection, stress testing at 100+ tx/sec.
 
-**[Chess Benchmark](https://github.com/claygeo/chess-benchmark)** — Freelance client project, delivered in 4 days. Cognitive training platform with progressive difficulty and Firebase auth.
+**[Chess Benchmark](https://github.com/claygeo/chess-benchmark)** — Freelance client project, delivered in 4 days. Cognitive training platform with progressive difficulty.
 
 **[Inventory System](https://github.com/claygeo/cannabis-inventory-system)** — Production warehouse system with Zebra thermal printer integration, barcode scanning, and batch tracking.
 
