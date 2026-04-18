@@ -27,4 +27,4 @@ I started in warehouse operations, noticed my team was drowning in manual work, 
 
 **Currently looking for** AI engineering, blockchain security, data engineering, or platform engineering roles (remote). Particularly interested in teams building agent frameworks, DeFi security tooling, or trading infrastructure. Also open to contract work and smart contract audits.
 
-[LinkedIn](https://www.linkedin.com/in/claytongeo/)
+[LinkedIn](https://www.linkedin.com/in/claygeo/)
