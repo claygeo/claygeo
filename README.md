@@ -4,7 +4,9 @@ I started in warehouse operations, noticed my team was drowning in manual work, 
 
 **Things I've built:**
 
-**[solhunt](https://github.com/claygeo/solhunt)** — Autonomous AI agent that finds and exploits smart contract vulnerabilities. Reads Solidity, writes Foundry exploit tests, executes on forked mainnet. No human in the loop. **67.7% exploit rate (21/31) on real DeFi hacks, beating Anthropic's SCONE-bench (51.1%).** Beanstalk ($182M hack) exploited in 1m 44s for $0.65.
+**[solhunt-duel](https://github.com/claygeo/solhunt-duel)** — Adversarial red/blue agent system for smart contract auditing. Red finds exploits, blue writes patches, four server-side forge-verified gates prevent the LLMs from faking success. Real convergence on the $2M Dexible exploit.
+
+**[solhunt](https://github.com/claygeo/solhunt)** — Autonomous AI agent that finds and exploits smart contract vulnerabilities. Reads Solidity, writes Foundry exploit tests, executes on forked mainnet. Beanstalk ($182M hack) exploited in 1m 44s for $0.65. Learned that a curated benchmark (67.7%) collapsed to ~13% on random samples — that evaluation gap drove me to build solhunt-duel (adversarial red/blue with server-side verification).
 
 **[Hyperliquid Trading Sim](https://github.com/claygeo/hyperliquid-trading-sim)** — Live at [tradeterm.app](https://tradeterm.app). Paper trading 70+ crypto perpetual futures on real Hyperliquid + Binance data. TradingView charts with 6 timeframes, 15-level live orderbook, whale position tracking, global leaderboard. Atomic PostgreSQL transactions with row-level locking, JWT auth + RLS, stress-tested at 1,000 TPS. React 18 + Express + Supabase.
 
