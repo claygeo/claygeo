@@ -31,4 +31,4 @@ I build production LLM systems and the data infrastructure they sit on top of. S
 
 **Currently looking for** AI engineering roles — LLM systems, evals, agents, production AI infrastructure. Particularly interested in teams building agent frameworks, eval platforms, or AI security. Remote-friendly.
 
-[claygeo.dev](https://claygeo.dev) · [LinkedIn](https://www.linkedin.com/in/claygeo/) · [@claygdev](https://x.com/claygdev) · claygeo4@gmail.com
+[claygeo.dev](https://claygeo.dev) · [LinkedIn](https://www.linkedin.com/in/claygeo/) · [@claygdev](https://x.com/claygdev)
