@@ -1,10 +1,12 @@
 ### Clay George — AI Engineer
 
-I build production LLM systems and the data infrastructure they sit on top of. Started in warehouse operations, taught myself to code to fix the manual work my team was drowning in. Three years later I'm shipping adversarial agent evals, production data pipelines, and live trading systems.
+I build production LLM systems and find where they bleed money. Started in warehouse operations, taught myself to code to fix the manual work my team was drowning in. Three years later I ship agent systems, adversarial evals, and data pipelines — built to run cheap. eivra scores 175 predictions on $0 API spend; solhunt reproduced a $182M hack for $0.65. Cost discipline isn't a feature I bolt on — it's how I build.
 
 **Live at [claygeo.dev](https://claygeo.dev)**
 
 **Selected work:**
+
+**[spendlens](https://github.com/claygeo/spendlens)** — Finds where AI systems bleed money. Reads per-request logs and surfaces recoverable spend across five detectors: uncached context resent every call, top-tier models on tasks a cheaper one nails, retries nobody logs, redundant tool calls inside the agent loop, and duplicate log rows that inflate every third-party token count. **No LLM in the analysis — every number traces to a formula, and it refuses to extrapolate monthly savings from three days of logs because that's marketing, not analysis.** Cache-miss detection hashes the stable prefix against the TTL window; tool-call dedup keys on name+args+result hash to split idempotent calls from genuine re-fetches. Live at [spendlens.dev](https://spendlens.dev).
 
 **[eivra](https://github.com/claygeo/eivra)** — Live AI forecasting benchmark. Six agents across four model families (Opus 4.7, Sonnet 4.6, Haiku 4.6, GPT-class slot) forecast real Polymarket and Manifold prediction markets. Every prediction scored with Brier, log-loss, 10-bin calibration plots with Wilson 95% intervals, and Kelly-fraction paper P&L. **175 predictions, 31 resolved markets, Hawk (contrarian) leads at 0.037 Brier on 28 resolutions and 96% win rate.** Runs `claude -p` subprocess on a Hetzner VPS via Max sub — **$0 Anthropic API spend.** Auto-deploys via GitHub→Netlify CD with three cron jobs (open-market pull every 15min, scoring every 6h, insight cards nightly). Live at [eivra.xyz](https://eivra.xyz).
 
@@ -20,17 +22,17 @@ I build production LLM systems and the data infrastructure they sit on top of. S
 
 **[hyperliquid-trading-sim](https://github.com/claygeo/hyperliquid-trading-sim)** — Live at [tradeterm.app](https://tradeterm.app). Full-stack paper trading platform with 70+ perpetual futures on real Hyperliquid + Binance data. Atomic Postgres transactions, JWT auth + RLS, WebSocket streaming, stress-tested to 1,000 TPS.
 
-**How I work:** I ship end-to-end. Not "I prototyped something" — I ship to production, measure it, iterate. Three of the projects above are live URLs you can hit right now. The cannabis inventory system has been running in warehouse operations for over a year. I write things down honestly — when solhunt's exploit rate dropped from 67.7% to 13% on a random sample, I published both numbers and treated the gap as a design problem.
+**How I work:** I ship end-to-end. Not "I prototyped something" — I ship to production, measure it, iterate. Several of the projects above are live URLs you can hit right now. The cannabis pricing system has been running in warehouse operations for over a year. I write things down honestly — when solhunt's exploit rate dropped from 67.7% to 13% on a random sample, I published both numbers and treated the gap as a design problem.
 
 **Stack:**
 
 **Languages:** TypeScript · Python · Rust · Solidity · SQL
-**LLM/AI:** Anthropic SDK · OpenAI · OpenRouter · Ollama · multi-provider routing · eval harness design · agent orchestration · tool use · structured fallbacks
+**LLM/AI:** Anthropic SDK · OpenAI · OpenRouter · Ollama · multi-provider routing · eval harness design · agent orchestration · tool use · structured fallbacks · cost instrumentation
 **Smart contracts:** Foundry · Anvil · forked mainnet · Etherscan API · Alchemy
 **Data/infra:** PostgreSQL · Supabase · BullMQ · Redis · Docker · Playwright · WebSockets
 **Frontend:** React 18 · Next.js 14 · Vite · Bun
 **Deploy:** Netlify · Vercel · Hetzner · GitHub Actions
 
-**Currently looking for** AI engineering roles — LLM systems, evals, agents, production AI infrastructure. Particularly interested in teams building agent frameworks, eval platforms, or AI security. Remote-friendly.
+**Open to AI engineering roles and build/consulting work** — LLM systems, evals, agents, and cost-efficient AI infrastructure. Particularly interested in teams building agent frameworks, eval platforms, or AI tooling. Remote-friendly.
 
 [claygeo.dev](https://claygeo.dev) · [LinkedIn](https://www.linkedin.com/in/claygeo/) · [@claygdev](https://x.com/claygdev)
