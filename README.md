@@ -8,6 +8,8 @@ I build production LLM systems and find where they bleed money. Started in wareh
 
 **[competitive-intel-platform](https://github.com/claygeo/competitive-intel-platform)** — Production data engineering at scale. A 15-state, 1,000+ location competitive pricing pipeline: reverse-engineered 3 proprietary retail APIs under Cloudflare with Playwright, a BullMQ + Redis worker fleet, Postgres normalization across 2,200+ brands, OCR via Google Vision. 175K+ products tracked, 13M+ historical price points. Replaced a 2-week manual cycle with same-day data. Used daily by my pricing team since October 2025.
 
+**[warehouse-labeling-system](https://github.com/claygeo/warehouse-labeling-system)** — My first production system, still running. Scan-to-print 4x6 thermal labeling for a regulated cannabis facility: Zebra ZT610 integration, three messy inventory export formats normalized with dynamic column detection, offline-first three-tier catalog cache. Prototyped on the warehouse floor as a logistics coordinator in December 2024; seven major versions later it prints 300+ labels a day, every day.
+
 **Claude/Codex Plays** — Autonomous agent that plays Pokémon end-to-end from RAM state, adversarially gated so it can't fake its own progress. Agent orchestration, eval-harness design, and honest failure logging. [Clips and writeup →](https://x.com/deforestpeg)
 
 **How I work:** I ship end-to-end, to production, measured. When one project's exploit rate dropped from 67.7% to 13% on a random sample, I published both numbers and treated the gap as a design problem. I write things down honestly.
