@@ -1,19 +1,34 @@
-### Clay George · AI Engineer
+# Clayton George · Backend Engineer
 
-I build production LLM systems and find where they bleed money. Started in warehouse ops, taught myself to code to kill the manual work my team was drowning in. Now I ship agent systems, evals, and data pipelines, built to run cheap. Cost discipline isn't a feature I bolt on, it's how I build.
+I build production APIs, data pipelines, queues, and operational systems with TypeScript/Node.js, Python, PostgreSQL, and Redis. I started in warehouse operations and learned to code by replacing slow, error-prone workflows with software people could use every day.
 
-**Live at [claygeo.dev](https://claygeo.dev)**
+My work includes a pricing platform spanning **15 states, 1,000+ locations, 175,000+ products, and 13M+ historical price points**, plus warehouse software in daily production since December 2024.
 
-**Flagship work**
+**Open to Backend Engineer and backend-focused Software Engineer roles in South Florida or remote within the United States.**
 
-**[competitive-intel-platform](https://github.com/claygeo/competitive-intel-platform)** — Production data engineering at scale. A 15-state, 1,000+ location competitive pricing pipeline: reverse-engineered 3 proprietary retail APIs under Cloudflare with Playwright, a BullMQ + Redis worker fleet, Postgres normalization across 2,200+ brands, OCR via Google Vision. 175K+ products tracked, 13M+ historical price points. Replaced a 2-week manual cycle with same-day data. Used daily by my pricing team since October 2025.
+[Email](mailto:claygeo6@gmail.com?subject=Backend%20engineering%20opportunity) · [Portfolio](https://claygeo.dev) · [LinkedIn](https://www.linkedin.com/in/claygeo/) · [X](https://x.com/deforestpeg)
 
-**[warehouse-labeling-system](https://github.com/claygeo/warehouse-labeling-system)** — My first production system, still running. Scan-to-print 4x6 thermal labeling for a regulated cannabis facility: Zebra ZT610 integration, three messy inventory export formats normalized with dynamic column detection, offline-first three-tier catalog cache. Prototyped on the warehouse floor as a logistics coordinator in December 2024; seven major versions later it prints 300+ labels a day, every day.
+## Selected backend work
 
-**Claude/Codex Plays** — Autonomous agent that plays Pokémon end-to-end from RAM state, adversarially gated so it can't fake its own progress. Agent orchestration, eval-harness design, and honest failure logging. [Clips and writeup →](https://x.com/deforestpeg)
+### [Competitive Intelligence Platform](https://github.com/claygeo/competitive-intel-platform) — production architecture case study
 
-**How I work:** I ship end-to-end, to production, measured. When one project's exploit rate dropped from 67.7% to 13% on a random sample, I published both numbers and treated the gap as a design problem. I write things down honestly.
+The data pipeline behind competitive pricing at a multi-state retailer. BullMQ and Redis workers ingest and normalize 175,000+ products and 13M+ historical price points from 1,000+ locations into PostgreSQL, with OCR, deduplication, retries, and automated recovery. It replaced roughly two weeks of manual work per collection cycle and is used daily by the pricing team.
 
-**Stack:** TypeScript · Python · Rust · SQL · Anthropic / OpenAI / OpenRouter / Ollama · eval harnesses · agent orchestration · Postgres · Supabase · Redis · Playwright · Next.js · Netlify / Vercel / Hetzner
+### [Warehouse Labeling System](https://github.com/claygeo/warehouse-labeling-system) — production architecture case study
 
-More at [claygeo.dev](https://claygeo.dev) · [LinkedIn](https://www.linkedin.com/in/claygeo/) · [X](https://x.com/deforestpeg)
+Browser-based warehouse software that converts inconsistent CSV and Excel exports into scannable Zebra thermal labels. Operators scan a barcode, resolve the product, assign a batch, and print product, date, allergen, and box data. A three-tier catalog cache keeps the workflow available through network drops. It has run in daily production since December 2024.
+
+### [Hyperliquid Trading Simulator — draft PR #11](https://github.com/claygeo/hyperliquid-trading-sim/pull/11) — inspectable backend code in review
+
+A Node.js/TypeScript market-data service consuming real-time Hyperliquid price and L2 order-book streams for active perpetual markets discovered from exchange metadata.
+
+## Engineering focus
+
+- Backend services and REST APIs
+- PostgreSQL data modeling and transactional workflows
+- Queues, workers, retries, and failure recovery
+- Real-time WebSocket systems
+- Messy third-party integrations and browser automation
+- CI, observability, and operational handoff
+
+**Core stack:** TypeScript · Node.js · Python · PostgreSQL · Redis · BullMQ · WebSockets · Supabase · Docker · Playwright
