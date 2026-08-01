@@ -18,9 +18,9 @@ The data pipeline behind competitive pricing at a multi-state retailer. BullMQ a
 
 Browser-based warehouse software that converts inconsistent CSV and Excel exports into scannable Zebra thermal labels. Operators scan a barcode, resolve the product, assign a batch, and print product, date, allergen, and box data. A three-tier catalog cache keeps the workflow available through network drops. It has run in daily production since December 2024.
 
-### [Hyperliquid Trading Simulator — draft PR #11](https://github.com/claygeo/hyperliquid-trading-sim/pull/11) — inspectable backend code in review
+### [Hyperliquid Trading Simulator](https://github.com/claygeo/hyperliquid-trading-sim) — live demo at [tradeterm.claygeo.dev](https://tradeterm.claygeo.dev)
 
-A Node.js/TypeScript market-data service consuming real-time Hyperliquid price and L2 order-book streams for active perpetual markets discovered from exchange metadata.
+A Node.js/TypeScript paper-trading platform on real-time Hyperliquid price and L2 order-book streams: authenticated commands, account-first PostgreSQL transactions with server-only mutation authority, and an 83-assertion pgTAP suite run against real Postgres in CI.
 
 ## Engineering focus
 
